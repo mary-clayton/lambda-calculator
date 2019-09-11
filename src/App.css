@@ -1,10 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    font-size:18px;
+    box-sizing: border-box;
+}
+
+.button{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    color:#fff;
+    margin: 5px 20px;
+    border:2px solid #FFF4;
+}
+
+.bigbutton{
+    width:210px;
+    height:70px;
+    border-radius: 40px;
+    color:#fff;
+    margin:5px;
+    border:2px solid #FFF4;
+}
+h1 {
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+.lightblue{
+    background-color:#00758B;
+}
+
+.mediumblue{
+    background-color:#0C5D9E;
+}
+
+.darkblue{
+    background-color:#014885;
+}
+
+
 .container {
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
+    height: 700px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    padding: 3%;
 }
 .display {
     margin-top: 25px;
@@ -18,5 +62,31 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 5rem;
   }
+.App {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.specials {
+display: flex;
+}
+
+.numbers-div {
+display: flex;
+flex-wrap: wrap;
+}
+.operators{
+margin-top: 3%;
+display: flex;
+flex-direction: column;
+
+}
+.special-numbers {
+    width: 75%;
+    margin-top: 3%;
+   display: flex; 
+   flex-flow: column;
+}
